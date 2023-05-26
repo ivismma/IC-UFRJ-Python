@@ -2,7 +2,6 @@
 Listas de exercícios - Computação I - Instituto de Computação UFRJ
 
 OBS: Alguns exercícios foram feitos em aula.
-
 Aula 1 - Funções e conceitos do Python
 Aula 2 - Booleanos e Expressões
 Aula 3 - if, else, elif
