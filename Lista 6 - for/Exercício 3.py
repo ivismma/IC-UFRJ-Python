@@ -1,6 +1,7 @@
 #Ordenação (Lista 5 - Ex 8)
 L = [2,5,8,3,8,2,3,4,1,7]
 
+#Algoritmo de ordenação genérico improvisado por mim, Complexidade do algoritmo não levado em conta.
 def ordenarLista(L, i=0, j=0):
     Laux = [] + L
     Lfinal = []
@@ -27,7 +28,6 @@ def inserirvalorLista(L, n, i=0):
     return L
 
 #DEMONSTRAÇÃO:
-print("Lista normal:", L)
 print("Lista ordenada:", ordenarLista(L))
 
 n = float(input("Digite o valor n: "))
