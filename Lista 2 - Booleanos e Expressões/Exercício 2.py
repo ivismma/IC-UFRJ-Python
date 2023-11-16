@@ -5,7 +5,7 @@ def retornaPar(num):
 #Teste
 
 n = int(input("Digite um número inteiro: "))
-if(retornaPar(n) == True):
+if(retornaPar(n)):
     print("O número inserido é par.")
 else:
     print("O número inserido é ímpar.")
