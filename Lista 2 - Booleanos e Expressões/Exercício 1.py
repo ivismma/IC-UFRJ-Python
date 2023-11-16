@@ -1,15 +1,11 @@
-#1. Dado um valor inteiro, retornar True se ele for par.
+#2. Fazer o mesmo para ímpar, chamando a função 1.
 
 def retornaPar(num):
-    if(num%2 == 0):
-        return True
-    else:
-        return False
-
+    return True if not (n%2) else False
 #Teste
 
 n = int(input("Digite um número inteiro: "))
-if(retornaPar(n) == True):
+if(retornaPar(n)):
     print("O número inserido é par.")
 else:
     print("O número inserido é ímpar.")
