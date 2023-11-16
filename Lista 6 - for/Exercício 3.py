@@ -30,5 +30,5 @@ def inserirvalorLista(L, n, i=0):
 #DEMONSTRAÇÃO:
 print("Lista ordenada:", ordenarLista(L))
 
-n = float(input("Digite o valor n: "))
+n = int(input("Digite o valor n: "))
 print("Lista com valor inserido ordenado (sem reordenar):", inserirvalorLista(L, n))
